@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "open_app",
+      "patterns": [
+        "open app",
+        "launch application",
+        "start program",
+        "open chrome",
+        "open notepad",
+        "open calculator",
+        "open browser",
+        "open word",
+        "open excel",
+        "start spotify",
+        "open telegram",
+        "open whatsapp"
+      ],
+      "responses": ["Opening application..."]
+    },
+    {
+      "tag": "system_status",
+      "patterns": [
+        "system status",
+        "check system",
+        "how are you",
+        "system info",
+        "computer status",
+        "check cpu",
+        "check memory",
+        "check ram",
+        "how's the system",
+        "system health"
+      ],
+      "responses": ["Here is your system status..."]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "weather",
+        "temperature",
+        "forecast",
+        "how is the weather",
+        "is it raining",
+        "what's the weather like",
+        "weather in",
+        "temperature in",
+        "is it sunny",
+        "is it cloudy"
+      ],
+      "responses": ["Let me check the weather..."]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "news",
+        "headlines",
+        "latest news",
+        "what's happening",
+        "today's news",
+        "top news",
+        "breaking news",
+        "sports news",
+        "tech news"
+      ],
+      "responses": ["Fetching latest news..."]
+    },
+    {
+      "tag": "reminder",
+      "patterns": [
+        "remind me",
+        "set reminder",
+        "reminder",
+        "set alarm",
+        "remind me to",
+        "reminder for",
+        "don't forget",
+        "wake me"
+      ],
+      "responses": ["Setting reminder..."]
+    },
+    {
+      "tag": "chat",
+      "patterns": [
+        "chat",
+        "talk",
+        "conversation",
+        "hello",
+        "hi",
+        "hey",
+        "how are you doing",
+        "what's up",
+        "good morning",
+        "good evening"
+      ],
+      "responses": ["Hello! How can I help?"]
+    },
+    {
+      "tag": "create_file",
+      "patterns": [
+        "create file",
+        "new file",
+        "make file",
+        "create document",
+        "new document",
+        "create text file",
+        "create folder",
+        "make directory"
+      ],
+      "responses": ["Creating file..."]
+    },
+    {
+      "tag": "delete_file",
+      "patterns": [
+        "delete file",
+        "remove file",
+        "delete folder",
+        "remove folder",
+        "delete document",
+        "delete this",
+        "remove this"
+      ],
+      "responses": ["Deleting file..."]
+    },
+    {
+      "tag": "search_file",
+      "patterns": [
+        "search file",
+        "find file",
+        "search for",
+        "find document",
+        "look for file",
+        "where is",
+        "locate file"
+      ],
+      "responses": ["Searching for file..."]
+    },
+    {
+      "tag": "send_email",
+      "patterns": [
+        "send email",
+        "send mail",
+        "compose email",
+        "write email",
+        "email to",
+        "mail to"
+      ],
+      "responses": ["Preparing to send email..."]
+    },
+    {
+      "tag": "shutdown",
+      "patterns": [
+        "shutdown",
+        "turn off",
+        "power off",
+        "shut down computer",
+        "sleep",
+        "hibernate"
+      ],
+      "responses": ["Shutting down..."]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "help me",
+        "what can you do",
+        "commands",
+        "list commands",
+        "show commands",
+        "capabilities"
+      ],
+      "responses": ["Here are my capabilities..."]
+    }
+  ]
+}
